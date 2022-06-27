@@ -4,7 +4,7 @@ import "./index.css"
 import Background from "./Components/Background"
 import Search from "./Components/Search/Search"
 import Sonuc from "./Components/Sonuc"
-function App({}) {
+function App() {
 const[havaDurumu,belirtHavaDurumu]=useState({});
   return (
     <div className='application'>
